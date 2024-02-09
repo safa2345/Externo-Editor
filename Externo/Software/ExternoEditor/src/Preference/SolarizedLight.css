@@ -1,0 +1,89 @@
+/* Background color of MenuBar,MenuItem,Toolbar and hbox */
+.menu-bar {
+    -fx-background-color: #eee8d5;
+}
+.menu-item {
+    -fx-background-color: #eee8d5;
+}
+.tool-bar {
+    -fx-background-color: #eee8d5;
+}
+#hbox-custom {
+    -fx-background-color: #eee8d5;
+}
+.menu-item:focused {
+     -fx-background-color: #458588;
+}
+
+
+/* Fonts and Color of Menu Label*/
+.menu .label {
+    -fx-font-family: "Fira Mono";
+    -fx-font-size: 18;
+    -fx-text-base-color:#3c3836;
+}
+
+/* Tab Pane Background */
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color: #ebdbb2;
+}
+
+/* Tab Height and Width */
+.tab-pane {
+  -fx-tab-min-width:150px;
+  -fx-tab-min-height:30px;
+}
+/* All Tabs */
+.tab {
+  -fx-font-family: "Fira Mono";
+  -fx-font-size: 18;
+  -fx-text-base-color: #282828;
+  -fx-background-color: #ebdbb2;
+}
+/* Selected Tabs */
+.tab:selected {
+    -fx-text-base-color: #282828;
+    -fx-background-color: #e5e9f0;
+}
+/* Making Tab Border Transparent */
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+/* Scroll Bar */
+.virtualized-scroll-pane > .scroll-bar:vertical {
+    -fx-background-color: white;
+}
+.virtualized-scroll-pane > .scroll-bar:horizontal {
+    -fx-background-color: white;
+}
+.virtualized-scroll-pane > .scroll-bar .increment-button{
+	-fx-padding:8px;
+}
+.virtualized-scroll-pane > .scroll-bar .decrement-button{
+	-fx-padding:8px;
+}
+
+.virtualized-scroll-pane > .scroll-bar .thumb {
+    -fx-background-color:derive(black,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}
+
+/* Line Number */
+.lineno {
+    -fx-background-color: #665c54;
+    -fx-text-fill: #DBCCA6;
+    -fx-font-size: 18;
+    -fx-padding: 0 10 0 10;
+}
+/* Code Area */
+.code-area {
+    -fx-background-color: #fdf6e3;
+}
+.paragraph-text .text{
+    -fx-fill: #282828;
+}
+.styled-text-area .caret {
+    -fx-stroke: #282828;
+}
+

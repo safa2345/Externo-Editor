@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #393351;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.SplashController">
+    <center>
+        <StackPane prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #2F2B43 #2F2B43;">
+
+            <Circle fx:id="c1" fill="#c10b9700" radius="100.0" stroke="#1fecff" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 60;" />
+            <Circle fx:id="c2" fill="#c10b9700" radius="58.0" stroke="RED" strokeType="INSIDE" strokeWidth="7.0" style="-fx-stroke-dash-array: 30;" />
+            <Circle fx:id="c3" fill="c10b9700" radius="22.0" stroke="#14a1ff" strokeType="INSIDE" strokeWidth="5.0" style="-fx-stroke-dash-array: 15;" />
+        </StackPane>
+    </center>
+   <bottom>
+      <Label prefHeight="143.0" prefWidth="275.0" text="    Loading..." textFill="#ff3737" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="JetBrains Mono Medium" size="43.0" />
+         </font>
+      </Label>
+   </bottom>
+   <top>
+      <Label prefHeight="111.0" prefWidth="352.0" text="     Externo Editor" textFill="#ff3737" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="40.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

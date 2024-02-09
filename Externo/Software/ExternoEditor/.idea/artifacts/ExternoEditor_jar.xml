@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExternoEditor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExternoEditor_jar</output-path>
+    <root id="archive" name="ExternoEditor.jar">
+      <element id="module-output" name="ExternoEditor" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #5e81ac;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="About.About">
+   <children>
+      <Label layoutX="195.0" layoutY="54.0" prefHeight="36.0" prefWidth="179.0" style="-fx-background-color: #ebdbb2;" text="  Externo Editor">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="104.0" prefHeight="34.0" prefWidth="381.0" style="-fx-background-color: #ebdbb2;" text="  An all purpose modern,sophisticated document editor">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="151.0" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #ebdbb2;" text="  V. 0.0.1">
+         <font>
+            <Font name="JetBrains Mono ExtraBold" size="17.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="183.0" layoutY="200.0" prefHeight="108.0" prefWidth="234.0" style="-fx-background-color: #ebdbb2;" text="Developed By :&#10;     Shamaun Safa&#10;     Mir Tanim Ahmed&#10;     Tamal Ahmed&#10;" wrapText="true">
+         <font>
+            <Font name="Fira Mono Medium" size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
